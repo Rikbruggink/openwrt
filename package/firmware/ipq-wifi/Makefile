@@ -37,6 +37,7 @@ ALLWIFIBOARDS:= \
 	pakedge_wr-1 \
 	qxwlan_e2600ac-c1 \
 	qxwlan_e2600ac-c2 \
+	tplink_deco-m5 \
 	sony_ncp-hg100-cellular \
 	teltonika_rutx \
 	zte_mf289f
@@ -113,6 +114,7 @@ $(eval $(call generate-ipq-wifi-package,pakedge_wr-1,Pakedge WR-1))
 $(eval $(call generate-ipq-wifi-package,qxwlan_e2600ac-c1,Qxwlan E2600AC C1))
 $(eval $(call generate-ipq-wifi-package,qxwlan_e2600ac-c2,Qxwlan E2600AC C2))
 $(eval $(call generate-ipq-wifi-package,sony_ncp-hg100-cellular,Sony NCP-HG100/Cellular))
+$(eval $(call generate-ipq-wifi-package,tplink_deco-m5,TP-Link Deco M5))
 $(eval $(call generate-ipq-wifi-package,teltonika_rutx,Teltonika RUTX))
 $(eval $(call generate-ipq-wifi-package,zte_mf289f,ZTE MF289F))
 
